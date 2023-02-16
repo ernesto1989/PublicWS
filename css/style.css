@@ -1,0 +1,132 @@
+/*
+    Colorhunt palete: https://colorhunt.co/palette/6096b493bfcfbdcdd6eee9da
+    
+ */
+body{
+    margin:0;
+    text-align: center; /*this center all elements that does not have fitted width*/ 
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    /*Block elements with fixed width will need to be centered with margin auto*/
+    margin: 50px auto 0 auto; /* margin auto will fit the element at the center always*/
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem; /*1em = 16px. Entonces, 6.625em = 90px. rem es el Root em. Toma el valor default de 16px = 1em*/
+    line-height: 2;
+    color: #66BFBF;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+}
+
+a{
+    color: #11999E;
+}
+
+hr{
+    border-style:dotted none none none;
+    border-color: #EAF6F6;
+    border-width: 15px;
+    width:10%;
+}
+
+p{
+    color:#40514E;
+}
+
+/*CSS SPECIFIED BY ID'S */
+#TopContainer{
+    background-color: #EAF6F6;
+    position:relative; /* will float all children*/ 
+    padding-top:100px;
+}
+
+#top_paragraph{
+    width:30%;
+    margin:10px auto 80px auto;
+}
+
+
+#topCloud{
+    position:absolute;
+    top:60px;
+    right:300px;
+}
+
+#bottomCloud{
+    position:absolute;
+    left:300px;
+    bottom:300px;
+}
+
+#contact-button{
+    font-size: large;
+    margin: 40px auto 40px auto;
+    height:50px;
+    border-radius: 8px;
+    background-color: #66BFBF;
+    border-color: #66BFBF;
+    color: white;
+}
+
+/*CSS SPECIFIED BY CLASS */
+.rounded-photo{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.lower-h2{
+    color: #66BFBF;
+}
+
+.skill-row{
+    line-height: 2;
+    margin:100px auto 100px auto;
+    text-align: left;
+    width:50%;
+}
+
+.data-img{
+    width:25%;
+    float:right;
+    margin-left: 30px;
+}
+
+.computer-img{
+    border-radius: 50%;
+    width:25%;
+    float:left;
+    margin-right: 30px;
+}
+
+.bass-img{
+    width:25%;
+    float:right;
+    margin-left: 30px;
+}
+
+.CenterContainer{
+   margin-top: 20px;
+}
+
+
+.BottomContainer{
+    background-color: #66BFBF;    
+    height: 120px;
+}
+
+
+
+.footer-link{
+    margin: 40px;
+}
